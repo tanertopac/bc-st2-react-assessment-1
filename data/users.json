@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Wick",
+    "age": 40,
+    "pet": "Daisy"
+  },
+  {
+    "id": 2,
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "age": 45,
+    "pet": "Jarvis"
+  },
+  {
+    "id": 3,
+    "firstName": "Peter",
+    "lastName": "Griffin",
+    "age": 50,
+    "pet": "Brian"
+  },
+  {
+    "id": 4,
+    "firstName": "Selina",
+    "lastName": "Kyle",
+    "age": 26,
+    "pet": "Isis"
+  },
+  {
+    "id": 5,
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "age": 34,
+    "pet": "Ace"
+  },
+  {
+    "id": 6,
+    "firstName": "Naruto",
+    "lastName": "Uzumaki",
+    "age": 18,
+    "pet": "Gamakichi"
+  },
+  {
+    "id": 7,
+    "firstName": "Sam",
+    "lastName": "Wilson",
+    "age": 32,
+    "pet": "Redwing"
+  },
+  {
+    "id": 8,
+    "firstName": "Diego",
+    "lastName": "De La Vega",
+    "age": 28,
+    "pet": "Tornado"
+  }
+]
