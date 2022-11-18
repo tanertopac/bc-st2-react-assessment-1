@@ -33,7 +33,7 @@ This template includes basic "create-react-app" template and dev-server for mock
   3. Error messsage will be in the error response
 - Any additional library can be added as a dependency to implement the solution
 - Research is also acceptable as long as the implemented code is grasped by the candidate
-- Creating custom component
+- Creating custom components where needed would be expected
 
 
 ## Prerequisites
