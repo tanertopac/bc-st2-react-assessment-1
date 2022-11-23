@@ -38,7 +38,7 @@ This template includes basic "create-react-app" template and dev-server for mock
 
 ## Prerequisites
 
-Git should be installed
-A recent version of Node.js should be installed (preferably ^16.0.0 but not required)
-A code editor should be installed
+- Git should be installed
+- A recent version of Node.js should be installed (preferably ^16.0.0 but not required)
+- A code editor should be installed
 
