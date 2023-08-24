@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import { USER_IDS_TO_FETCH } from './consts'
+import { USER_IDS_TO_FETCH, USER_COLUMNS } from "./consts";
+import { DataGrid } from "@mui/x-data-grid";
+import { Box } from "@mui/material";
+import { useFetchUsers } from "./hooks/services/useFetchUsers";
 
 // Server's base URL is: http://localhost:3001/api
 // Path for the Users endpoint: /users/:id
@@ -9,24 +10,17 @@ import { USER_IDS_TO_FETCH } from './consts'
 function App() {
   // Modify here
   const userIds = USER_IDS_TO_FETCH;
+  const { users } = useFetchUsers(userIds);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={{ height: 400, width: "100%" }}>
+      <DataGrid
+        rows={users}
+        columns={USER_COLUMNS}
+        pagination={false}
+        disableRowSelectionOnClick
+      />
+    </Box>
   );
 }
 
